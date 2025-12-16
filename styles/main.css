@@ -17,3 +17,16 @@
 
     --primary-font: "Roboto", sans-serif;
 }
+
+body {
+    background-color: var(--primary-color);
+    padding: 40px
+}
+
+.app {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
