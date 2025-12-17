@@ -167,7 +167,42 @@ aside {
     color: var(--grey-700);
 }
 
-/* agregar estilos para los mensajes */
+/* messages styles */
+
+.chat-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.message {
+    background-color: var(--grey-300);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0, 0.238);
+    padding: 10px;
+    width: 60%;
+}
+
+.message .time {
+    color: var(--grey-700);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: end;
+}
+
+.me {
+    align-self: end;
+    background-color: var(--green-100);
+}
+
+/* footer styles */
 
 footer {
     display: flex;
